@@ -53,9 +53,17 @@ require("model/sunshine/sunshine-model.js");
 
 ## Usage
 
+### Installation
+
+```
+npm install --save-dev grunt-browserify-alias
+```
+
+### Implementation
+
 Simply specify the files and directories you want to map by using a globbing pattern. Here is a very basic Gruntfile as an example:
 
-```javascript
+```
 function Gruntfile (grunt)
 {
     "use strict";
