@@ -35,10 +35,10 @@ root project directory
 
 ```
 
-Now, say we want to require *sunshine-model* from within the *sunshine-controller* module. The standard old crappy way to do this is:
+Now, say we want to `require` *sunshine-model* from within the *sunshine-controller* module. The standard old crappy way to do this is:
 
 ```javascript
-require("../../../model/sunshine/sunshine-model.js");
+require("../../../model/sunshine/sunshine-model");
 ```
 
 Now imagine that you refactor your code and modules get moved around. Suddenly, managing all those relative paths becomes even more of a pain in the butt.
@@ -48,7 +48,7 @@ Using *grunt-browserify-alias* at compile-time will allow you to `require` modul
 New hotness:
 
 ```javascript
-require("model/sunshine/sunshine-model.js");
+require("model/sunshine/sunshine-model");
 ```
 
 ## Usage
