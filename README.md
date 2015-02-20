@@ -7,7 +7,7 @@ You want to require modules from specific directories, without needing to use `.
 
 For example, have a look at the following javascript directory structure:
 
-```javascript
+```
 root project directory
 │
 ├──•Gruntfile.js
@@ -63,7 +63,7 @@ npm install --save-dev grunt-browserify-alias
 
 Simply specify the files and directories you want to map by using a globbing pattern. Here is a very basic Gruntfile as an example:
 
-```
+```javascript
 function Gruntfile (grunt)
 {
     "use strict";
