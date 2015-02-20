@@ -2,7 +2,7 @@
   "name": "grunt-browserify-alias",
   "title": "grunt-browserify-alias",
   "description": "Map paths to JS files and directories for use as aliases so that modules can be require'd without messy relative file paths.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "repository": {
     "type": "git",
