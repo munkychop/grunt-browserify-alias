@@ -7,8 +7,7 @@ You want to require modules from specific directories, without needing to use `.
 
 For example, have a look at the following javascript directory structure:
 
-<pre>
-
+```javascript
 root project directory
 │
 ├──•Gruntfile.js
@@ -34,7 +33,7 @@ root project directory
                        └──• sunshine-model.js 
 
 
-</pre>
+```
 
 Now, say we want to require *sunshine-model* from within the *sunshine-controller* module. The standard old crappy way to do this is:
 
